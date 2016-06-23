@@ -1,0 +1,11 @@
+D:\Do An C#\ThiTracNghiem\ThiTracNghiem\bin\Debug\ThiTracNghiem.exe.config
+D:\Do An C#\ThiTracNghiem\ThiTracNghiem\bin\Debug\ThiTracNghiem.exe
+D:\Do An C#\ThiTracNghiem\ThiTracNghiem\bin\Debug\ThiTracNghiem.pdb
+D:\Do An C#\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csprojResolveAssemblyReference.cache
+D:\Do An C#\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.DangKy.resources
+D:\Do An C#\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.DangNhap.resources
+D:\Do An C#\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.PhanQuyen.resources
+D:\Do An C#\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.Properties.Resources.resources
+D:\Do An C#\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.GenerateResource.Cache
+D:\Do An C#\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.exe
+D:\Do An C#\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.pdb
