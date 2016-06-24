@@ -1,6 +1,6 @@
 ﻿namespace ThiTracNghiem
 {
-  partial class DangKy
+  partial class frmDangKy
   {
     /// <summary>
     /// Required designer variable.
@@ -203,7 +203,7 @@
       this.btnQuayLai.Text = "Quay Lại";
       this.btnQuayLai.UseVisualStyleBackColor = false;
       // 
-      // DangKy
+      // frmDangKy
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -226,7 +226,7 @@
       this.Controls.Add(this.label3);
       this.Controls.Add(this.label2);
       this.Controls.Add(this.label1);
-      this.Name = "DangKy";
+      this.Name = "frmDangKy";
       this.Text = "Đăng Ký";
       this.Load += new System.EventHandler(this.DangKy_Load);
       this.ResumeLayout(false);

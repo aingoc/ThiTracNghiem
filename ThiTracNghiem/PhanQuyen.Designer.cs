@@ -1,6 +1,6 @@
 ﻿namespace ThiTracNghiem
 {
-  partial class PhanQuyen
+  partial class frmPhanQuyen
   {
     /// <summary>
     /// Required designer variable.
@@ -28,49 +28,29 @@
     /// </summary>
     private void InitializeComponent()
     {
-      this.button1 = new System.Windows.Forms.Button();
-      this.btnQuanLyThi = new System.Windows.Forms.Button();
-      this.btnXemDiemThi = new System.Windows.Forms.Button();
       this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+      this.mnBatDauThi = new System.Windows.Forms.ToolStripMenuItem();
+      this.mnQuanLyThi = new System.Windows.Forms.ToolStripMenuItem();
+      this.mnDeThi = new System.Windows.Forms.ToolStripMenuItem();
+      this.mnCauHoi = new System.Windows.Forms.ToolStripMenuItem();
+      this.mnTaoDeThi = new System.Windows.Forms.ToolStripMenuItem();
+      this.mnSuaXoaDeThi = new System.Windows.Forms.ToolStripMenuItem();
+      this.mnTaoCauHoi = new System.Windows.Forms.ToolStripMenuItem();
+      this.mnSuaXoaCauHoi = new System.Windows.Forms.ToolStripMenuItem();
+      this.mnXemDiemThi = new System.Windows.Forms.ToolStripMenuItem();
       this.mnDangXuat = new System.Windows.Forms.ToolStripMenuItem();
       this.mnTroGiup = new System.Windows.Forms.ToolStripMenuItem();
       this.menuStrip1.SuspendLayout();
       this.SuspendLayout();
       // 
-      // button1
-      // 
-      this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.button1.Location = new System.Drawing.Point(0, 27);
-      this.button1.Name = "button1";
-      this.button1.Size = new System.Drawing.Size(220, 47);
-      this.button1.TabIndex = 0;
-      this.button1.Text = "BẮT ĐẦU THI";
-      this.button1.UseVisualStyleBackColor = true;
-      // 
-      // btnQuanLyThi
-      // 
-      this.btnQuanLyThi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.btnQuanLyThi.Location = new System.Drawing.Point(219, 27);
-      this.btnQuanLyThi.Name = "btnQuanLyThi";
-      this.btnQuanLyThi.Size = new System.Drawing.Size(215, 47);
-      this.btnQuanLyThi.TabIndex = 1;
-      this.btnQuanLyThi.Text = "QUẢN LÝ THI";
-      this.btnQuanLyThi.UseVisualStyleBackColor = true;
-      // 
-      // btnXemDiemThi
-      // 
-      this.btnXemDiemThi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.btnXemDiemThi.Location = new System.Drawing.Point(431, 27);
-      this.btnXemDiemThi.Name = "btnXemDiemThi";
-      this.btnXemDiemThi.Size = new System.Drawing.Size(208, 47);
-      this.btnXemDiemThi.TabIndex = 2;
-      this.btnXemDiemThi.Text = "XEM ĐIỂM THI";
-      this.btnXemDiemThi.UseVisualStyleBackColor = true;
-      // 
       // menuStrip1
       // 
+      this.menuStrip1.BackColor = System.Drawing.SystemColors.ControlLight;
       this.menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
       this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnBatDauThi,
+            this.mnQuanLyThi,
+            this.mnXemDiemThi,
             this.mnDangXuat,
             this.mnTroGiup});
       this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -79,11 +59,74 @@
       this.menuStrip1.TabIndex = 1;
       this.menuStrip1.Text = "mntMenu";
       // 
+      // mnBatDauThi
+      // 
+      this.mnBatDauThi.Name = "mnBatDauThi";
+      this.mnBatDauThi.Size = new System.Drawing.Size(76, 20);
+      this.mnBatDauThi.Text = "Bắt đầu thi";
+      // 
+      // mnQuanLyThi
+      // 
+      this.mnQuanLyThi.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnDeThi,
+            this.mnCauHoi});
+      this.mnQuanLyThi.Name = "mnQuanLyThi";
+      this.mnQuanLyThi.Size = new System.Drawing.Size(83, 20);
+      this.mnQuanLyThi.Text = "Quản Lý Thi";
+      // 
+      // mnDeThi
+      // 
+      this.mnDeThi.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnTaoDeThi,
+            this.mnSuaXoaDeThi});
+      this.mnDeThi.Name = "mnDeThi";
+      this.mnDeThi.Size = new System.Drawing.Size(152, 22);
+      this.mnDeThi.Text = "Đề Thi";
+      // 
+      // mnCauHoi
+      // 
+      this.mnCauHoi.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnTaoCauHoi,
+            this.mnSuaXoaCauHoi});
+      this.mnCauHoi.Name = "mnCauHoi";
+      this.mnCauHoi.Size = new System.Drawing.Size(152, 22);
+      this.mnCauHoi.Text = "Câu Hỏi";
+      // 
+      // mnTaoDeThi
+      // 
+      this.mnTaoDeThi.Name = "mnTaoDeThi";
+      this.mnTaoDeThi.Size = new System.Drawing.Size(155, 22);
+      this.mnTaoDeThi.Text = "Tạo Đề Thi";
+      // 
+      // mnSuaXoaDeThi
+      // 
+      this.mnSuaXoaDeThi.Name = "mnSuaXoaDeThi";
+      this.mnSuaXoaDeThi.Size = new System.Drawing.Size(155, 22);
+      this.mnSuaXoaDeThi.Text = "Sửa/Xóa Đề Thi";
+      // 
+      // mnTaoCauHoi
+      // 
+      this.mnTaoCauHoi.Name = "mnTaoCauHoi";
+      this.mnTaoCauHoi.Size = new System.Drawing.Size(152, 22);
+      this.mnTaoCauHoi.Text = "Tạo Câu Hỏi";
+      // 
+      // mnSuaXoaCauHoi
+      // 
+      this.mnSuaXoaCauHoi.Name = "mnSuaXoaCauHoi";
+      this.mnSuaXoaCauHoi.Size = new System.Drawing.Size(164, 22);
+      this.mnSuaXoaCauHoi.Text = "Sửa/Xóa Câu Hỏi";
+      // 
+      // mnXemDiemThi
+      // 
+      this.mnXemDiemThi.Name = "mnXemDiemThi";
+      this.mnXemDiemThi.Size = new System.Drawing.Size(94, 20);
+      this.mnXemDiemThi.Text = "Xem Điểm Thi";
+      // 
       // mnDangXuat
       // 
       this.mnDangXuat.Name = "mnDangXuat";
-      this.mnDangXuat.Size = new System.Drawing.Size(72, 20);
-      this.mnDangXuat.Text = "Đăng xuất";
+      this.mnDangXuat.Size = new System.Drawing.Size(74, 20);
+      this.mnDangXuat.Text = "Đăng Xuất";
       // 
       // mnTroGiup
       // 
@@ -91,18 +134,15 @@
       this.mnTroGiup.Size = new System.Drawing.Size(65, 20);
       this.mnTroGiup.Text = "Trợ Giúp";
       // 
-      // PhanQuyen
+      // frmPhanQuyen
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
       this.ClientSize = new System.Drawing.Size(639, 293);
-      this.Controls.Add(this.btnXemDiemThi);
-      this.Controls.Add(this.btnQuanLyThi);
-      this.Controls.Add(this.button1);
       this.Controls.Add(this.menuStrip1);
-      this.Name = "PhanQuyen";
-      this.Text = "Quản Lý";
+      this.Name = "frmPhanQuyen";
+      this.Text = "Phần mềm Thi trắc nghiệm cho sinh viên";
       this.menuStrip1.ResumeLayout(false);
       this.menuStrip1.PerformLayout();
       this.ResumeLayout(false);
@@ -111,11 +151,16 @@
     }
 
     #endregion
-
-    private System.Windows.Forms.Button button1;
-    private System.Windows.Forms.Button btnQuanLyThi;
-    private System.Windows.Forms.Button btnXemDiemThi;
     private System.Windows.Forms.MenuStrip menuStrip1;
+    private System.Windows.Forms.ToolStripMenuItem mnBatDauThi;
+    private System.Windows.Forms.ToolStripMenuItem mnQuanLyThi;
+    private System.Windows.Forms.ToolStripMenuItem mnDeThi;
+    private System.Windows.Forms.ToolStripMenuItem mnCauHoi;
+    private System.Windows.Forms.ToolStripMenuItem mnTaoDeThi;
+    private System.Windows.Forms.ToolStripMenuItem mnSuaXoaDeThi;
+    private System.Windows.Forms.ToolStripMenuItem mnTaoCauHoi;
+    private System.Windows.Forms.ToolStripMenuItem mnSuaXoaCauHoi;
+    private System.Windows.Forms.ToolStripMenuItem mnXemDiemThi;
     private System.Windows.Forms.ToolStripMenuItem mnDangXuat;
     private System.Windows.Forms.ToolStripMenuItem mnTroGiup;
   }

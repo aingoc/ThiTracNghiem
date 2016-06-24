@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace ThiTracNghiem
 {
-  public partial class frmBatDauThi : Form
+  public partial class frmSuaDeThi : Form
   {
-    public frmBatDauThi()
+    public frmSuaDeThi()
     {
       InitializeComponent();
-    }
-
-    private void label2_Click(object sender, EventArgs e)
-    {
-
-    }
-
-    private void button1_Click(object sender, EventArgs e)
-    {
-
     }
   }
 }

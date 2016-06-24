@@ -1,6 +1,6 @@
 ﻿namespace ThiTracNghiem
 {
-  partial class DangNhap
+  partial class frmDangNhap
   {
     /// <summary>
     /// Required designer variable.
@@ -94,19 +94,19 @@
       this.lbDangKy.TabStop = true;
       this.lbDangKy.Text = "Đăng Ký";
       // 
-      // DangNhap
+      // frmDangNhap
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-      this.ClientSize = new System.Drawing.Size(478, 265);
+      this.ClientSize = new System.Drawing.Size(438, 233);
       this.Controls.Add(this.lbDangKy);
       this.Controls.Add(this.btnDangNhap);
       this.Controls.Add(this.txtMatKhau);
       this.Controls.Add(this.txtTenDangNhap);
       this.Controls.Add(this.label1);
       this.Controls.Add(this.lbTenDangNhap);
-      this.Name = "DangNhap";
+      this.Name = "frmDangNhap";
       this.Text = "Đăng Nhập - Phần mềm thi trắc nghiệm";
       this.Load += new System.EventHandler(this.DangNhap_Load);
       this.ResumeLayout(false);

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ThiTracNghiem
 {
-  public partial class PhanQuyen : Form
+  public partial class frmPhanQuyen : Form
   {
-    public PhanQuyen()
+    public frmPhanQuyen()
     {
       InitializeComponent();
     }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ThiTracNghiem
 {
-  public partial class DangNhap : Form
+  public partial class frmDangNhap : Form
   {
-    public DangNhap()
+    public frmDangNhap()
     {
       InitializeComponent();
     }
