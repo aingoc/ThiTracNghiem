@@ -40,7 +40,7 @@
       this.label3 = new System.Windows.Forms.Label();
       this.txbThoiGianLamBai = new System.Windows.Forms.TextBox();
       this.label2 = new System.Windows.Forms.Label();
-      this.txbMonThi = new System.Windows.Forms.TextBox();
+      this.txbDeThi = new System.Windows.Forms.TextBox();
       this.label1 = new System.Windows.Forms.Label();
       this.groupBox1.SuspendLayout();
       this.groupBox2.SuspendLayout();
@@ -104,7 +104,7 @@
       this.groupBox2.Controls.Add(this.label3);
       this.groupBox2.Controls.Add(this.txbThoiGianLamBai);
       this.groupBox2.Controls.Add(this.label2);
-      this.groupBox2.Controls.Add(this.txbMonThi);
+      this.groupBox2.Controls.Add(this.txbDeThi);
       this.groupBox2.Controls.Add(this.label1);
       this.groupBox2.Location = new System.Drawing.Point(348, 12);
       this.groupBox2.Name = "groupBox2";
@@ -165,12 +165,12 @@
       this.label2.TabIndex = 4;
       this.label2.Text = "Thời gian làm bài";
       // 
-      // txbMonThi
+      // txbDeThi
       // 
-      this.txbMonThi.Location = new System.Drawing.Point(127, 28);
-      this.txbMonThi.Name = "txbMonThi";
-      this.txbMonThi.Size = new System.Drawing.Size(117, 20);
-      this.txbMonThi.TabIndex = 3;
+      this.txbDeThi.Location = new System.Drawing.Point(127, 28);
+      this.txbDeThi.Name = "txbDeThi";
+      this.txbDeThi.Size = new System.Drawing.Size(117, 20);
+      this.txbDeThi.TabIndex = 3;
       // 
       // label1
       // 
@@ -178,9 +178,9 @@
       this.label1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
       this.label1.Location = new System.Drawing.Point(15, 30);
       this.label1.Name = "label1";
-      this.label1.Size = new System.Drawing.Size(54, 15);
+      this.label1.Size = new System.Drawing.Size(67, 15);
       this.label1.TabIndex = 2;
-      this.label1.Text = "Môn Thi";
+      this.label1.Text = "Tên Đề Thi";
       // 
       // frmSuaDeThi
       // 
@@ -213,7 +213,7 @@
     private System.Windows.Forms.Label label3;
     private System.Windows.Forms.TextBox txbThoiGianLamBai;
     private System.Windows.Forms.Label label2;
-    private System.Windows.Forms.TextBox txbMonThi;
+    private System.Windows.Forms.TextBox txbDeThi;
     private System.Windows.Forms.Label label1;
   }
 }

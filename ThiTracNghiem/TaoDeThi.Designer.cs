@@ -28,8 +28,6 @@
     /// </summary>
     private void InitializeComponent()
     {
-      this.lbChonMon = new System.Windows.Forms.Label();
-      this.txbMonThi = new System.Windows.Forms.TextBox();
       this.lbSoCauHoi = new System.Windows.Forms.Label();
       this.txbSoCauHoi = new System.Windows.Forms.TextBox();
       this.label1 = new System.Windows.Forms.Label();
@@ -42,28 +40,11 @@
       this.txbTenDeThi = new System.Windows.Forms.TextBox();
       this.SuspendLayout();
       // 
-      // lbChonMon
-      // 
-      this.lbChonMon.AutoSize = true;
-      this.lbChonMon.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.lbChonMon.Location = new System.Drawing.Point(50, 107);
-      this.lbChonMon.Name = "lbChonMon";
-      this.lbChonMon.Size = new System.Drawing.Size(54, 15);
-      this.lbChonMon.TabIndex = 0;
-      this.lbChonMon.Text = "Môn Thi";
-      // 
-      // txbMonThi
-      // 
-      this.txbMonThi.Location = new System.Drawing.Point(205, 105);
-      this.txbMonThi.Name = "txbMonThi";
-      this.txbMonThi.Size = new System.Drawing.Size(157, 20);
-      this.txbMonThi.TabIndex = 1;
-      // 
       // lbSoCauHoi
       // 
       this.lbSoCauHoi.AutoSize = true;
       this.lbSoCauHoi.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.lbSoCauHoi.Location = new System.Drawing.Point(50, 156);
+      this.lbSoCauHoi.Location = new System.Drawing.Point(50, 115);
       this.lbSoCauHoi.Name = "lbSoCauHoi";
       this.lbSoCauHoi.Size = new System.Drawing.Size(67, 15);
       this.lbSoCauHoi.TabIndex = 2;
@@ -71,7 +52,7 @@
       // 
       // txbSoCauHoi
       // 
-      this.txbSoCauHoi.Location = new System.Drawing.Point(207, 151);
+      this.txbSoCauHoi.Location = new System.Drawing.Point(207, 115);
       this.txbSoCauHoi.Name = "txbSoCauHoi";
       this.txbSoCauHoi.Size = new System.Drawing.Size(155, 20);
       this.txbSoCauHoi.TabIndex = 3;
@@ -80,7 +61,7 @@
       // 
       this.label1.AutoSize = true;
       this.label1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label1.Location = new System.Drawing.Point(50, 203);
+      this.label1.Location = new System.Drawing.Point(50, 159);
       this.label1.Name = "label1";
       this.label1.Size = new System.Drawing.Size(109, 17);
       this.label1.TabIndex = 4;
@@ -88,7 +69,7 @@
       // 
       // txbThoiGianLamBai
       // 
-      this.txbThoiGianLamBai.Location = new System.Drawing.Point(205, 203);
+      this.txbThoiGianLamBai.Location = new System.Drawing.Point(207, 159);
       this.txbThoiGianLamBai.Name = "txbThoiGianLamBai";
       this.txbThoiGianLamBai.Size = new System.Drawing.Size(155, 20);
       this.txbThoiGianLamBai.TabIndex = 5;
@@ -96,7 +77,7 @@
       // btnHuyBo
       // 
       this.btnHuyBo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.btnHuyBo.Location = new System.Drawing.Point(116, 245);
+      this.btnHuyBo.Location = new System.Drawing.Point(127, 198);
       this.btnHuyBo.Name = "btnHuyBo";
       this.btnHuyBo.Size = new System.Drawing.Size(81, 35);
       this.btnHuyBo.TabIndex = 6;
@@ -106,7 +87,7 @@
       // btnTaoDeThi
       // 
       this.btnTaoDeThi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.btnTaoDeThi.Location = new System.Drawing.Point(241, 245);
+      this.btnTaoDeThi.Location = new System.Drawing.Point(227, 198);
       this.btnTaoDeThi.Name = "btnTaoDeThi";
       this.btnTaoDeThi.Size = new System.Drawing.Size(85, 35);
       this.btnTaoDeThi.TabIndex = 7;
@@ -151,7 +132,7 @@
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(443, 313);
+      this.ClientSize = new System.Drawing.Size(378, 270);
       this.Controls.Add(this.txbTenDeThi);
       this.Controls.Add(this.label3);
       this.Controls.Add(this.txbMaDeThi);
@@ -162,8 +143,6 @@
       this.Controls.Add(this.label1);
       this.Controls.Add(this.txbSoCauHoi);
       this.Controls.Add(this.lbSoCauHoi);
-      this.Controls.Add(this.txbMonThi);
-      this.Controls.Add(this.lbChonMon);
       this.Name = "frmTaoDeThi";
       this.Text = "Tạo Đề Thi";
       this.ResumeLayout(false);
@@ -172,9 +151,6 @@
     }
 
     #endregion
-
-    private System.Windows.Forms.Label lbChonMon;
-    private System.Windows.Forms.TextBox txbMonThi;
     private System.Windows.Forms.Label lbSoCauHoi;
     private System.Windows.Forms.TextBox txbSoCauHoi;
     private System.Windows.Forms.Label label1;

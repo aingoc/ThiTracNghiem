@@ -38,25 +38,20 @@
       this.lbTenSinhVien = new System.Windows.Forms.Label();
       this.groupBox2 = new System.Windows.Forms.GroupBox();
       this.groupBox3 = new System.Windows.Forms.GroupBox();
+      this.groupBox4 = new System.Windows.Forms.GroupBox();
+      this.rdDapAnD = new System.Windows.Forms.RadioButton();
+      this.rdDapAnC = new System.Windows.Forms.RadioButton();
+      this.rdDapAnB = new System.Windows.Forms.RadioButton();
+      this.rdDapAnA = new System.Windows.Forms.RadioButton();
+      this.lbCauSo = new System.Windows.Forms.Label();
       this.btnQuayLai = new System.Windows.Forms.Button();
       this.btnCauTiep = new System.Windows.Forms.Button();
-      this.lbDapAnD = new System.Windows.Forms.Label();
-      this.lbDapAnC = new System.Windows.Forms.Label();
-      this.lbDapAnB = new System.Windows.Forms.Label();
-      this.label6 = new System.Windows.Forms.Label();
-      this.label5 = new System.Windows.Forms.Label();
-      this.lbDapAnA = new System.Windows.Forms.Label();
-      this.label3 = new System.Windows.Forms.Label();
-      this.A = new System.Windows.Forms.Label();
       this.lbNoiDung = new System.Windows.Forms.Label();
       this.label = new System.Windows.Forms.Label();
-      this.groupBox4 = new System.Windows.Forms.GroupBox();
-      this.button1 = new System.Windows.Forms.Button();
-      this.lbCauSo = new System.Windows.Forms.Label();
       this.groupBox5 = new System.Windows.Forms.GroupBox();
-      this.label4 = new System.Windows.Forms.Label();
-      this.cbMonThi = new System.Windows.Forms.ComboBox();
       this.btnBatDau = new System.Windows.Forms.Button();
+      this.cbDeThi = new System.Windows.Forms.ComboBox();
+      this.label4 = new System.Windows.Forms.Label();
       this.groupBox1.SuspendLayout();
       this.groupBox2.SuspendLayout();
       this.groupBox3.SuspendLayout();
@@ -165,17 +160,10 @@
       // 
       // groupBox3
       // 
+      this.groupBox3.Controls.Add(this.groupBox4);
       this.groupBox3.Controls.Add(this.lbCauSo);
       this.groupBox3.Controls.Add(this.btnQuayLai);
       this.groupBox3.Controls.Add(this.btnCauTiep);
-      this.groupBox3.Controls.Add(this.lbDapAnD);
-      this.groupBox3.Controls.Add(this.lbDapAnC);
-      this.groupBox3.Controls.Add(this.lbDapAnB);
-      this.groupBox3.Controls.Add(this.label6);
-      this.groupBox3.Controls.Add(this.label5);
-      this.groupBox3.Controls.Add(this.lbDapAnA);
-      this.groupBox3.Controls.Add(this.label3);
-      this.groupBox3.Controls.Add(this.A);
       this.groupBox3.Controls.Add(this.lbNoiDung);
       this.groupBox3.Controls.Add(this.label);
       this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -185,6 +173,72 @@
       this.groupBox3.TabIndex = 6;
       this.groupBox3.TabStop = false;
       this.groupBox3.Text = "Nội dung câu hỏi";
+      // 
+      // groupBox4
+      // 
+      this.groupBox4.Controls.Add(this.rdDapAnD);
+      this.groupBox4.Controls.Add(this.rdDapAnC);
+      this.groupBox4.Controls.Add(this.rdDapAnB);
+      this.groupBox4.Controls.Add(this.rdDapAnA);
+      this.groupBox4.Location = new System.Drawing.Point(27, 85);
+      this.groupBox4.Name = "groupBox4";
+      this.groupBox4.Size = new System.Drawing.Size(879, 117);
+      this.groupBox4.TabIndex = 16;
+      this.groupBox4.TabStop = false;
+      this.groupBox4.Text = "Đáp Án";
+      // 
+      // rdDapAnD
+      // 
+      this.rdDapAnD.AutoSize = true;
+      this.rdDapAnD.Location = new System.Drawing.Point(442, 73);
+      this.rdDapAnD.Name = "rdDapAnD";
+      this.rdDapAnD.Size = new System.Drawing.Size(88, 21);
+      this.rdDapAnD.TabIndex = 9;
+      this.rdDapAnD.TabStop = true;
+      this.rdDapAnD.Text = "Đáp Án D";
+      this.rdDapAnD.UseVisualStyleBackColor = true;
+      // 
+      // rdDapAnC
+      // 
+      this.rdDapAnC.AutoSize = true;
+      this.rdDapAnC.Location = new System.Drawing.Point(442, 24);
+      this.rdDapAnC.Name = "rdDapAnC";
+      this.rdDapAnC.Size = new System.Drawing.Size(87, 21);
+      this.rdDapAnC.TabIndex = 2;
+      this.rdDapAnC.TabStop = true;
+      this.rdDapAnC.Text = "Đáp Án C";
+      this.rdDapAnC.UseVisualStyleBackColor = true;
+      // 
+      // rdDapAnB
+      // 
+      this.rdDapAnB.AutoSize = true;
+      this.rdDapAnB.Location = new System.Drawing.Point(49, 73);
+      this.rdDapAnB.Name = "rdDapAnB";
+      this.rdDapAnB.Size = new System.Drawing.Size(87, 21);
+      this.rdDapAnB.TabIndex = 1;
+      this.rdDapAnB.TabStop = true;
+      this.rdDapAnB.Text = "Đáp Án B";
+      this.rdDapAnB.UseVisualStyleBackColor = true;
+      // 
+      // rdDapAnA
+      // 
+      this.rdDapAnA.AutoSize = true;
+      this.rdDapAnA.Location = new System.Drawing.Point(49, 34);
+      this.rdDapAnA.Name = "rdDapAnA";
+      this.rdDapAnA.Size = new System.Drawing.Size(87, 21);
+      this.rdDapAnA.TabIndex = 0;
+      this.rdDapAnA.TabStop = true;
+      this.rdDapAnA.Text = "Đáp Án A";
+      this.rdDapAnA.UseVisualStyleBackColor = true;
+      // 
+      // lbCauSo
+      // 
+      this.lbCauSo.AutoSize = true;
+      this.lbCauSo.Location = new System.Drawing.Point(73, 42);
+      this.lbCauSo.Name = "lbCauSo";
+      this.lbCauSo.Size = new System.Drawing.Size(15, 17);
+      this.lbCauSo.TabIndex = 15;
+      this.lbCauSo.Text = "1";
       // 
       // btnQuayLai
       // 
@@ -203,82 +257,6 @@
       this.btnCauTiep.TabIndex = 13;
       this.btnCauTiep.Text = "Câu tiếp theo";
       this.btnCauTiep.UseVisualStyleBackColor = true;
-      // 
-      // lbDapAnD
-      // 
-      this.lbDapAnD.AutoSize = true;
-      this.lbDapAnD.Location = new System.Drawing.Point(537, 150);
-      this.lbDapAnD.Name = "lbDapAnD";
-      this.lbDapAnD.Size = new System.Drawing.Size(70, 17);
-      this.lbDapAnD.TabIndex = 12;
-      this.lbDapAnD.Text = "Đáp Án D";
-      // 
-      // lbDapAnC
-      // 
-      this.lbDapAnC.AutoSize = true;
-      this.lbDapAnC.Location = new System.Drawing.Point(537, 111);
-      this.lbDapAnC.Name = "lbDapAnC";
-      this.lbDapAnC.Size = new System.Drawing.Size(69, 17);
-      this.lbDapAnC.TabIndex = 11;
-      this.lbDapAnC.Text = "Đáp Án C";
-      // 
-      // lbDapAnB
-      // 
-      this.lbDapAnB.AutoSize = true;
-      this.lbDapAnB.Location = new System.Drawing.Point(77, 148);
-      this.lbDapAnB.Name = "lbDapAnB";
-      this.lbDapAnB.Size = new System.Drawing.Size(69, 17);
-      this.lbDapAnB.TabIndex = 10;
-      this.lbDapAnB.Text = "Đáp Án B";
-      // 
-      // label6
-      // 
-      this.label6.AutoSize = true;
-      this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label6.Location = new System.Drawing.Point(501, 148);
-      this.label6.Name = "label6";
-      this.label6.Size = new System.Drawing.Size(21, 19);
-      this.label6.TabIndex = 9;
-      this.label6.Text = "D";
-      // 
-      // label5
-      // 
-      this.label5.AutoSize = true;
-      this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label5.Location = new System.Drawing.Point(501, 109);
-      this.label5.Name = "label5";
-      this.label5.Size = new System.Drawing.Size(20, 19);
-      this.label5.TabIndex = 8;
-      this.label5.Text = "C";
-      // 
-      // lbDapAnA
-      // 
-      this.lbDapAnA.AutoSize = true;
-      this.lbDapAnA.Location = new System.Drawing.Point(77, 113);
-      this.lbDapAnA.Name = "lbDapAnA";
-      this.lbDapAnA.Size = new System.Drawing.Size(65, 17);
-      this.lbDapAnA.TabIndex = 7;
-      this.lbDapAnA.Text = "Đáp án A";
-      // 
-      // label3
-      // 
-      this.label3.AutoSize = true;
-      this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label3.Location = new System.Drawing.Point(51, 148);
-      this.label3.Name = "label3";
-      this.label3.Size = new System.Drawing.Size(20, 19);
-      this.label3.TabIndex = 6;
-      this.label3.Text = "B";
-      // 
-      // A
-      // 
-      this.A.AutoSize = true;
-      this.A.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.A.Location = new System.Drawing.Point(51, 113);
-      this.A.Name = "A";
-      this.A.Size = new System.Drawing.Size(20, 19);
-      this.A.TabIndex = 5;
-      this.A.Text = "A";
       // 
       // lbNoiDung
       // 
@@ -300,66 +278,17 @@
       this.label.TabIndex = 0;
       this.label.Text = "Câu số";
       // 
-      // groupBox4
-      // 
-      this.groupBox4.Controls.Add(this.button1);
-      this.groupBox4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.groupBox4.Location = new System.Drawing.Point(16, 372);
-      this.groupBox4.Name = "groupBox4";
-      this.groupBox4.Size = new System.Drawing.Size(933, 193);
-      this.groupBox4.TabIndex = 7;
-      this.groupBox4.TabStop = false;
-      this.groupBox4.Text = "Phần Trả Lời";
-      // 
-      // button1
-      // 
-      this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.button1.Location = new System.Drawing.Point(852, 159);
-      this.button1.Name = "button1";
-      this.button1.Size = new System.Drawing.Size(75, 28);
-      this.button1.TabIndex = 0;
-      this.button1.Text = "Xong";
-      this.button1.UseVisualStyleBackColor = true;
-      this.button1.Click += new System.EventHandler(this.button1_Click);
-      // 
-      // lbCauSo
-      // 
-      this.lbCauSo.AutoSize = true;
-      this.lbCauSo.Location = new System.Drawing.Point(73, 42);
-      this.lbCauSo.Name = "lbCauSo";
-      this.lbCauSo.Size = new System.Drawing.Size(15, 17);
-      this.lbCauSo.TabIndex = 15;
-      this.lbCauSo.Text = "1";
-      // 
       // groupBox5
       // 
       this.groupBox5.Controls.Add(this.btnBatDau);
-      this.groupBox5.Controls.Add(this.cbMonThi);
+      this.groupBox5.Controls.Add(this.cbDeThi);
       this.groupBox5.Controls.Add(this.label4);
       this.groupBox5.Location = new System.Drawing.Point(399, 17);
       this.groupBox5.Name = "groupBox5";
-      this.groupBox5.Size = new System.Drawing.Size(243, 80);
+      this.groupBox5.Size = new System.Drawing.Size(262, 80);
       this.groupBox5.TabIndex = 8;
       this.groupBox5.TabStop = false;
       this.groupBox5.Text = "Môn Thi";
-      // 
-      // label4
-      // 
-      this.label4.AutoSize = true;
-      this.label4.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label4.Location = new System.Drawing.Point(13, 25);
-      this.label4.Name = "label4";
-      this.label4.Size = new System.Drawing.Size(65, 15);
-      this.label4.TabIndex = 0;
-      this.label4.Text = "Chọn Môn";
-      // 
-      // cbMonThi
-      // 
-      this.cbMonThi.FormattingEnabled = true;
-      this.cbMonThi.Location = new System.Drawing.Point(84, 21);
-      this.cbMonThi.Name = "cbMonThi";
-      this.cbMonThi.Size = new System.Drawing.Size(153, 21);
-      this.cbMonThi.TabIndex = 1;
       // 
       // btnBatDau
       // 
@@ -371,14 +300,31 @@
       this.btnBatDau.Text = "Bắt đầu thi";
       this.btnBatDau.UseVisualStyleBackColor = true;
       // 
+      // cbDeThi
+      // 
+      this.cbDeThi.FormattingEnabled = true;
+      this.cbDeThi.Location = new System.Drawing.Point(103, 22);
+      this.cbDeThi.Name = "cbDeThi";
+      this.cbDeThi.Size = new System.Drawing.Size(153, 21);
+      this.cbDeThi.TabIndex = 1;
+      // 
+      // label4
+      // 
+      this.label4.AutoSize = true;
+      this.label4.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.label4.Location = new System.Drawing.Point(13, 25);
+      this.label4.Name = "label4";
+      this.label4.Size = new System.Drawing.Size(75, 15);
+      this.label4.TabIndex = 0;
+      this.label4.Text = "Chọn Đề Thi";
+      // 
       // frmBatDauThi
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.SystemColors.ButtonFace;
-      this.ClientSize = new System.Drawing.Size(961, 587);
+      this.ClientSize = new System.Drawing.Size(975, 367);
       this.Controls.Add(this.groupBox5);
-      this.Controls.Add(this.groupBox4);
       this.Controls.Add(this.groupBox3);
       this.Controls.Add(this.groupBox2);
       this.Controls.Add(this.groupBox1);
@@ -391,6 +337,7 @@
       this.groupBox3.ResumeLayout(false);
       this.groupBox3.PerformLayout();
       this.groupBox4.ResumeLayout(false);
+      this.groupBox4.PerformLayout();
       this.groupBox5.ResumeLayout(false);
       this.groupBox5.PerformLayout();
       this.ResumeLayout(false);
@@ -409,24 +356,19 @@
     private System.Windows.Forms.Label lbTenSinhVien;
     private System.Windows.Forms.GroupBox groupBox2;
     private System.Windows.Forms.GroupBox groupBox3;
-    private System.Windows.Forms.Label label6;
-    private System.Windows.Forms.Label label5;
-    private System.Windows.Forms.Label lbDapAnA;
-    private System.Windows.Forms.Label label3;
-    private System.Windows.Forms.Label A;
     private System.Windows.Forms.Label lbNoiDung;
     private System.Windows.Forms.Label label;
-    private System.Windows.Forms.Label lbDapAnB;
     private System.Windows.Forms.Button btnQuayLai;
     private System.Windows.Forms.Button btnCauTiep;
-    private System.Windows.Forms.Label lbDapAnD;
-    private System.Windows.Forms.Label lbDapAnC;
-    private System.Windows.Forms.GroupBox groupBox4;
-    private System.Windows.Forms.Button button1;
     private System.Windows.Forms.Label lbCauSo;
     private System.Windows.Forms.GroupBox groupBox5;
     private System.Windows.Forms.Label label4;
     private System.Windows.Forms.Button btnBatDau;
-    private System.Windows.Forms.ComboBox cbMonThi;
+    private System.Windows.Forms.ComboBox cbDeThi;
+    private System.Windows.Forms.GroupBox groupBox4;
+    private System.Windows.Forms.RadioButton rdDapAnD;
+    private System.Windows.Forms.RadioButton rdDapAnC;
+    private System.Windows.Forms.RadioButton rdDapAnB;
+    private System.Windows.Forms.RadioButton rdDapAnA;
   }
 }
